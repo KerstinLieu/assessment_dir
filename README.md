@@ -3,7 +3,8 @@
 **Brief explanation of the data and analysis:**
 The working annotated code that I've uploaded will make a fasta file,
 containing the coding sequence for the 10 copper amine oxidase genes in the gene family.
-The FASTA file made containing these sequences were aligned using the web based tool MUSLCE. 
+The FASTA file made containing these sequences were uploadedand aligned using the web based tool MUSLCE 
+(https://www.ebi.ac.uk/Tools/msa/muscle/). 
 The aligned sequence was then downloded by running Python code, 
 and the aligned sequence was used to make a phylogenetic tree using Neighbour-Joinin Model.
 The aim is to see the evolutionary relationship between these genes. 
