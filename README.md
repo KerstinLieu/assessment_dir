@@ -22,9 +22,8 @@ from Bio import AlignIO
 **The output:**
 A neighbour joining phylogenetic tree should be created as a result of running the code.
 Details of what the tree should look like is as follows:
-- zeta should be the most divergent from all the other sequences, 
-  with epsilon 2 being the next most diversgent 
+- zeta should be the most divergent from all the other sequences 
 - the remaining gene sequences should form 2 clusters/groups:
-   - group 1: alpha 1, alpha 2, apha 3, and beta
+   - group 1: epsilon 2, alpha 1, alpha 2, apha 3, and beta
    - group 2: delta, epsilon 1, gamma 1, and gamma 2
 
