@@ -4,7 +4,7 @@
 The aim of this investigation, is to look into the evolutionary relationship of these genes.
 
 The working annotated code that I've uploaded will make a fasta file
-containing the coding sequence (obtained from TAIR)
+containing the coding sequence (obtained from TAIR database)
 for the 10 copper amine oxidase genes in a gene family.
 
 The FASTA file made containing these sequences were uploaded
@@ -50,7 +50,7 @@ Distance matrix was calculated and a distance tree constrictor project was made.
 
 Phylogenetic tree using neighbour joining model was created and visualised.
  - constructor.nj()
- - Phylo.()
+ - Phylo.draw()
  - Phylo.draw_ascii()
 
 
@@ -61,6 +61,8 @@ Details of what the tree should look like is as follows:
 - the remaining gene sequences should form 2 clusters/groups:
    - group 1: CuAOepsilon2, CuAOalpha1, CuAOalpha2, CuAOalpha3, and CuAObeta
    - group 2: CuAOdelta, CuAOepsilon1, CuAOgamma1, and CuAOgamma2
-
+ 
+The output for the phylogenetic tree should look like this:
 <img width="281" alt="image" src="https://github.com/KerstinLieu/assessment_dir/assets/153204691/0128df47-4c10-4858-957d-fc705617ddff">
+
 
