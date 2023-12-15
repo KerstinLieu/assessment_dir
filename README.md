@@ -15,7 +15,7 @@ The aligned sequence was then downloded by running Python code,
 and the aligned sequence was used to make a phylogenetic tree using Neighbour-Joining Model.
 
 **To run the code:**
-Open the DataScience2.ipynb file in JupyterLab.
+Open the DataScience2.ipynb file in the zip file directory assessment_dir in JupyterLab.
 
 Code to import the necessary libraries are as follows:
 from Bio import Phylo
