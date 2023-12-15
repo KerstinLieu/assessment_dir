@@ -1,6 +1,6 @@
 # Constructing a phylogenetic tree using neighbour joining model, for the copper amine oxidase gene family in Arabidopsis thaliana
  
-**Brief explanation of the data and analysis:**
+**BRIEF EXPLANATION OF DATA AND ANALYSIS:**
 The aim of this investigation, is to look into the evolutionary relationship of these genes.
 
 The working annotated code that I've uploaded will make a fasta file
@@ -14,7 +14,7 @@ The aligned sequence was then downloded by running Python code,
 and the aligned sequence was used to make a phylogenetic tree using Neighbour-Joining Model.
 
 
-**To run the code:**
+**TO RUN THE CODE:**
 Download raw file DataScience2.ipynb, from assessment_dir directory in GitHub, and open file in JupyterLab.
 Run code.
 
@@ -54,7 +54,7 @@ Phylogenetic tree using neighbour joining model was created and visualised.
  - Phylo.draw_ascii()
 
 
-**The output:**
+**THE OUTPUT:**
 A neighbour joining phylogenetic tree should be created as a result of running the code.
 Details of what the tree should look like is as follows:
 - CuAOzeta should be the most divergent from all the other sequences 
