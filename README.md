@@ -61,3 +61,6 @@ Details of what the tree should look like is as follows:
 - the remaining gene sequences should form 2 clusters/groups:
    - group 1: CuAOepsilon2, CuAOalpha1, CuAOalpha2, CuAOalpha3, and CuAObeta
    - group 2: CuAOdelta, CuAOepsilon1, CuAOgamma1, and CuAOgamma2
+
+<img width="281" alt="image" src="https://github.com/KerstinLieu/assessment_dir/assets/153204691/0128df47-4c10-4858-957d-fc705617ddff">
+
