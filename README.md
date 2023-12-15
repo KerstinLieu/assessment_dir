@@ -15,7 +15,9 @@ The aligned sequence was then downloded by running Python code,
 and the aligned sequence was used to make a phylogenetic tree using Neighbour-Joining Model.
 
 **To run the code:**
-You will need the following libraries. Code to import them are as follows:
+Open the DataScience2.ipynb file in JupyterLab.
+
+Code to import the necessary libraries are as follows:
 from Bio import Phylo
 from Bio.Seq import Seq 
 from Bio import SeqIO
@@ -36,16 +38,16 @@ A file was then made of this record in FASTA format.
  - SeqIO.write()
 
 The FASTA file made was uploaded to MUSCLE, and the aligned sequence was downloaded into Python.
+The url in the code can be changed to the url you get from aligning your sequence on MUSCLE. 
  - urllib.request.urlretrieve()
 
 
-Distance matrix was calculated and a distance tree constrictor pbject was made.
+Distance matrix was calculated and a distance tree constrictor project was made.
  - DistanceCalculator()
  - calculator.get_distance()
  - DistanceTreeConstructor()
 
-Phylogenetic tree using neighbour joining model was created and vhttps://milliams.com/courses/2023-12-swbio/
-isualised.
+Phylogenetic tree using neighbour joining model was created and visualised.
  - constructor.nj()
  - Phylo.()
  - Phylo.draw_ascii()
