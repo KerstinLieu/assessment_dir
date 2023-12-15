@@ -1,5 +1,4 @@
-# Constructing a phylogenetic tree using neighbour joining model,
-# for the copper amine oxidase gene family in Arabidopsis thaliana
+# Constructing a phylogenetic tree using neighbour joining model, for the copper amine oxidase gene family in Arabidopsis thaliana
  
 **Brief explanation of the data and analysis:**
 The aim of this investigation, is to look into the evolutionary relationship of these genes.
@@ -13,6 +12,7 @@ and aligned using the web based tool MUSLCE (https://www.ebi.ac.uk/Tools/msa/mus
 
 The aligned sequence was then downloded by running Python code, 
 and the aligned sequence was used to make a phylogenetic tree using Neighbour-Joining Model.
+
 
 **To run the code:**
 Download raw file DataScience2.ipynb, from assessment_dir directory in GitHub, and open file in JupyterLab.
@@ -52,6 +52,7 @@ Phylogenetic tree using neighbour joining model was created and visualised.
  - constructor.nj()
  - Phylo.()
  - Phylo.draw_ascii()
+
 
 **The output:**
 A neighbour joining phylogenetic tree should be created as a result of running the code.
