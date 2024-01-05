@@ -10,8 +10,8 @@ for the 10 copper amine oxidase genes in a gene family.
 The FASTA file made containing these sequences were uploaded
 and aligned using the web based tool MUSLCE (https://www.ebi.ac.uk/Tools/msa/muscle/). 
 
-A URL link is made for the aligned sequence. This aligned sequence was then downloded by running Python code, 
-and the aligned sequence was used to make a phylogenetic tree using Neighbour-Joining Model.
+This aligned sequence was then downloded and then read by running Python code. 
+The aligned sequence was used to make a phylogenetic tree using Neighbour-Joining Model.
 
 
 **TO RUN THE CODE:**
