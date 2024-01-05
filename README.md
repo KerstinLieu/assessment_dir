@@ -15,17 +15,17 @@ The aligned sequence was used to make a phylogenetic tree using Neighbour-Joinin
 
 
 **TO RUN THE CODE:**
-Download raw file DataScience2.ipynb, from assessment_dir directory in GitHub, and open file in JupyterLab from Anaconda Navigator.
+Download zip file of the assessment_dir repository. Unzip and move the file into an appropriate location where you are able to and open the DataScience2.ipynb file in JupyterLab from Anaconda Navigator.
 Run code.
 
-Code to import the necessary libraries are as follows:
-from Bio import Phylo
-from Bio.Seq import Seq 
-from Bio import SeqIO
-from Bio.SeqRecord import SeqRecord
-from Bio.Phylo.TreeConstruction import DistanceCalculator
-from Bio.Phylo.TreeConstruction import DistanceTreeCalculator
-from Bio import AlignIO 
+Code to import the necessary libraries are as follows (this is already written in the code):
+from Bio import Phylo,
+from Bio.Seq import Seq,
+from Bio import SeqIO,
+from Bio.SeqRecord import SeqRecord,
+from Bio.Phylo.TreeConstruction import DistanceCalculator,
+from Bio.Phylo.TreeConstruction import DistanceTreeCalculator,
+from Bio import AlignIO, 
 
 SeqRecord objects were made for the 10 coding sequences
 along with its corresponding gene name and combined together into one record.
@@ -38,10 +38,9 @@ along with its corresponding gene name and combined together into one record.
 A file was then made of this record in FASTA format. 
  - SeqIO.write()
 
-The FASTA file made was uploaded to MUSCLE, and the aligned sequence was downloaded into Python.
-The url in the code can be changed to the url you get from aligning your sequence on MUSCLE. 
- - urllib.request.urlretrieve()
-
+The FASTA file made was uploaded to MUSCLE, and the aligned sequence was downloaded as a clustal file named CLUSTAL_multiple_sequence_alignment.clw. This file needs to be opened and read in Python using this code:
+with open("CLUSTAL_multiple_sequence_alignment.clw","r") as clw: 
+    align = AlignIO.read(clw,"clustal")
 
 Distance matrix was calculated and a distance tree constrictor project was made.
  - DistanceCalculator()
