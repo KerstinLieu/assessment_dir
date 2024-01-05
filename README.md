@@ -15,7 +15,7 @@ and the aligned sequence was used to make a phylogenetic tree using Neighbour-Jo
 
 
 **TO RUN THE CODE:**
-Download raw file DataScience2.ipynb, from assessment_dir directory in GitHub, and open file in JupyterLab.
+Download raw file DataScience2.ipynb, from assessment_dir directory in GitHub, and open file in JupyterLab from Anaconda Navigator.
 Run code.
 
 Code to import the necessary libraries are as follows:
