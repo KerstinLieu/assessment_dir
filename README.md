@@ -38,7 +38,9 @@ along with its corresponding gene name and combined together into one record.
 A file was then made of this record in FASTA format. 
  - SeqIO.write()
 
-The FASTA file made was uploaded to MUSCLE, and the aligned sequence was downloaded as a clustal file named CLUSTAL_multiple_sequence_alignment.clw. This file needs to be opened and read in Python using this code:
+The FASTA file made was uploaded to MUSCLE, and the aligned sequence was downloaded as a clustal file named CLUSTAL_multiple_sequence_alignment.clw.
+If the zip file of the repository was downloaded, the clustal file should be in the same directory as the code file (DataScience2.ipynb).
+This file needs to be opened and read in Python using this code:
 with open("CLUSTAL_multiple_sequence_alignment.clw","r") as clw: 
     align = AlignIO.read(clw,"clustal")
 
